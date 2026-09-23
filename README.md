@@ -1,47 +1,45 @@
 # Práctica 2: Guardar los números pares
 ## 1. Descripción del problema (Fase 1)
 <!-- Explica con tus palabras qué hace tu programa y para qué serviría en la vida real. Máximo 4 líneas. -->
-
-_____
+Este programa me serviria para separar terminos o alguna otra cosa que necesitamos distinguir y sean más facil de esta manera ya que e programa nos ayudaria a esto
 
 ## 2. Entradas y salidas (Fase 1)
 <!-- Define cada entrada y cada salida, con su tipo de dato y su objetivo. -->
 
 **Entradas:**
-1. _____
+1. 5 numeros enteros
 
 **Salidas:**
-1. _____
-2. _____
+1. separar los numeros pares en un arreglo
+2. los nuemeros impares los descarte
 
 ## 3. Restricciones e invariante (Fase 1 y 2)
 
 **Restricciones** (¿qué debe cumplirse?):
-- _____
-- _____
+- no aceptar numeros con decimales
 
 **Tamaño del arreglo y por qué** (piensa en el peor caso):
-_____
+debe ser un tamaño de 5, en caso de que todos los numeros llegaran a ser pares, para que todos queden dentro del codigo
 
 **¿El 0 y los negativos son pares? ¿Por qué?**
-_____
+El 0 si es numero par ya que si se puede dividir entre dos, los negativos tambien tienen pares
 
 **Invariante** (¿qué es verdad después de cada vuelta del ciclo?):
-_____
+Va a descartar los numeros impares y solo poner a los pares en un arreglo 
 
 ## 4. Casos resueltos a mano (Fase 1)
 
 | Caso | Números | Pares guardados | Posición de cada par |
 |---|---|---|---|
-| 1 | 3, 8, 5, 2, 7 | _____ | _____ |
-| 2 | _____ | _____ | _____ |
-| 3 | _____ | _____ | _____ |
+| 1 | 3, 8, 5, 2, 7 | 8,2 | 1,2 |
+| 2 | 6,7,9,10,3 | 6,10 | 1,2 |
+| 3 | 80,20,5,2,11 | 80,20,2 | 1,2,3 |
 
 ## 5. Receta en pseudocódigo (Fase 2)
 <!-- Tu receta va en el archivo RECETA.md. Aquí solo responde las dos preguntas. -->
 
-**¿Probé mi receta a mano con un caso?** Sí / No
-**¿Tuve que corregirla?** _____
+**¿Probé mi receta a mano con un caso?** Sí 
+**¿Tuve que corregirla?** no
 
 ## 6. Cómo compilar y ejecutar (Fase 3)
 
