@@ -51,9 +51,16 @@ g++ -Wall -Wextra -std=c++17 main.cpp -o numeros_pares
 ## 7. Ejemplo de ejecución (Fase 3)
 <!-- Pega aquí lo que muestra tu programa en pantalla con un caso normal. -->
 
-```
-_____
-```
+regina_mua@MacBook-Air-de-Regina-2 ulsa_ime_1_dp_numeros_pares % g++ -Wall -Wextra -std=c++17 main.cpp -o numeros_pares
+regina_mua@MacBook-Air-de-Regina-2 ulsa_ime_1_dp_numeros_pares % ./numeros_pares
+Guardar los numeros pares  5 numeros
+Escribe un numero: 2
+Escribe un numero: 7
+Escribe un numero: 22
+Escribe un numero: 30
+Escribe un numero: 0
+Los pares encontrados son: 4 numeros pares
+Valores: 2 22 30 0 %  
 
 ## 8. Experimentos (Fase 3)
 
