@@ -65,7 +65,14 @@ Valores: 2 22 30 0 %
 ## 8. Experimentos (Fase 3)
 
 **Experimento A: ¿qué apareció al imprimir las 5 posiciones del arreglo? ¿Por qué?**
-_____
+Guardar los numeros pares  5 numeros
+Escribe un numero: 3
+Escribe un numero: 8
+Escribe un numero: 5
+Escribe un numero: 2
+Escribe un numero: 7
+Los pares encontrados son: 2 numeros pares
+Valores: 8 2 %  
 
 **Experimento B: ¿qué pasó al usar la variable del ciclo como posición del arreglo? ¿Por qué?**
 _____
