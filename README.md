@@ -75,29 +75,33 @@ Los pares encontrados son: 2 numeros pares
 Valores: 8 2 %  
 
 **Experimento B: ¿qué pasó al usar la variable del ciclo como posición del arreglo? ¿Por qué?**
-_____
+
+Aparece porque el arreglo tenia la memoria reservada , pero no todas las posiciones fueron ocupadas
+pares[0] = basura 
+pares[1] = 8
+pares[2] = basura
+pares[3] = 2
+pares[4] = basura
 
 ## 9. Tabla de pruebas (Fase 4)
 
 | Caso | Números | Esperado | Obtenido | ¿Pasó? |
 |---|---|---|---|---|
-| Mezcla | 1, 2, 3, 4, 5 | 2 pares: 2, 4 | _____ | _____ |
-| Posiciones distintas | 3, 8, 5, 2, 7 | 2 pares: 8, 2 | _____ | _____ |
-| Todos pares | 2, 4, 6, 8, 10 | 5 pares | _____ | _____ |
-| Todos impares | 1, 3, 5, 7, 9 | 0 pares | _____ | _____ |
-| Con cero y negativos | 0, -3, -4, 7, 1 | 2 pares: 0, -4 | _____ | _____ |
-| Entrada inválida | `hola` o `3.5` | vuelve a pedir | _____ | _____ |
-| Caso propio 1 | _____ | _____ | _____ | _____ |
-| Caso propio 2 | _____ | _____ | _____ | _____ |
+| Mezcla | 1, 2, 3, 4, 5 | 2 pares: 2, 4 | 2 numeros pares, Valores: 2 4  | si |
+| Posiciones distintas | 3, 8, 5, 2, 7 | 2 pares: 8, 2 | 2 numeros pares, Valores 8 2 | si |
+| Todos pares | 2, 4, 6, 8, 10 | 5 pares | 5 numeros pares, Valores 2 4 6 8 10  | si |
+| Todos impares | 1, 3, 5, 7, 9 | 0 pares | 0 numeros pares | si |
+| Con cero y negativos | 0, -3, -4, 7, 1 | 2 pares: 0, -4 | 2 numeros pares, valores 0 -4 | si |
+| Entrada inválida | `hola` o `3.5` | vuelve a pedir | Entrada no valida. Escribe numero entero | si |
+| Caso propio 1 | 20,10,7,1,0 | 3 pares: 20, 10, 0| 3 numeros pares, valores: 20 10 0 | si |
+| Caso propio 2 | 1,3,80,5,2 | 2 pares: 80, 2 | 2 numeros pares, valores: 80 2 | si |
 
 ## 10. Bitácora de mejoras (Fase 4)
 
 | # | ¿Qué falló o qué quise mejorar? | ¿Qué cambié? | ¿Funcionó? |
 |---|---|---|---|
-| 1 | _____ | _____ | _____ |
-| 2 | _____ | _____ | _____ |
+| 1 | me falto definir variable totalPares | la defini | si, de esa manera funciono el codigo adecuadamente |
 
-**Reto elegido (opcional):** _____
 
 ## 11. Dudas para el profesor (Fase 3)
 
