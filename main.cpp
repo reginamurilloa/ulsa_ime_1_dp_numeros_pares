@@ -27,8 +27,11 @@ int main() {
     }
     std::cout << "Los pares encontrados son: " << totalPares << " numeros pares\n";
     std::cout << "Valores: ";
-    for (int i = 0; i < totalPares; i++) {
+
+    int i = 0;
+    while (i < totalPares) {
         std::cout << pares[i] << " ";
+        i = i + 1;
     }
         
     return 0;

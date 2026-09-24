@@ -107,24 +107,24 @@ pares[4] = basura
 
 | Duda | Lo que ya intenté |
 |---|---|
-| _____ | _____ |
+| en este momento ninguna |  
 
 ## 12. Reflexión final
 
 **¿Qué aprendí con esta práctica?**
-_____
+Lo importante que es definir una variable para llevar acabo el codigo y definir lo que voy a hacer en el codigo
 
 **Ahora que terminé, ¿qué cambiaría de mi proceso?**
-_____
+tener con mayor claridad que quiero para el codigo
 
 **¿Qué fue lo más difícil y cómo lo resolví?**
-_____
+agregar el for, pero luego lo regrese al original on while
 
 **¿Qué pregunta me quedó sin responder?**
-_____
+ninguna
 
 **¿Por qué no puedo usar la variable del ciclo para guardar en el arreglo?**
-_____
+Porque el contador del ciclo cuenta todos los números leídos, no solo los pares. Si lo usara como posición, dejaría huecos en el arreglo.
 
 ## 13. Lista de verificación antes de entregar (Fase 5)
 
